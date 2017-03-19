@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/smaller_margin"
+        android:textSize="18sp"
+        android:text="@string/user_information" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_profile_first_name" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="@dimen/horizontal_margin"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/first_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:lines="1"
+                android:singleLine="true"
+                android:textColorHint="@color/light_gray"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_profile_middle_initial" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="@dimen/horizontal_margin"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/middle_initial"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:lines="1"
+                android:singleLine="true"
+                android:textColorHint="@color/light_gray"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_profile_last_name" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="@dimen/horizontal_margin"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/last_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:lines="1"
+                android:singleLine="true"
+                android:textColorHint="@color/light_gray"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_profile_email" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="@dimen/horizontal_margin"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColorHint="@color/light_gray"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_profile_phone_number" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="@dimen/horizontal_margin"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/phone_number"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColorHint="@color/light_gray"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_profile_employee_number" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="@dimen/horizontal_margin"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/employee_number"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:textColorHint="@color/light_gray"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_profile_job_title" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="@dimen/horizontal_margin"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/job_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColorHint="@color/light_gray"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_profile_department" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="@dimen/horizontal_margin"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/department"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColorHint="@color/light_gray"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_profile_office_location" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="@dimen/horizontal_margin"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/office_location"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColorHint="@color/light_gray"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_profile_linkedin_profile" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="@dimen/horizontal_margin"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/linkedin_profile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColorHint="@color/light_gray"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/save_user_info"
+                style="@style/BigRoundedButton.Blue"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Save"
+                android:layout_column="3"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</merge>

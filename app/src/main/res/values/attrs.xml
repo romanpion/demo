@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MenuItemView">
+        <attr name="android:enabled" />
+        <attr name="text" format="string|reference" />
+        <attr name="src" format="string|reference" />
+        <attr name="colorEnabled" format="color|reference" />
+        <attr name="colorSelected" format="color|reference" />
+        <attr name="colorDisabled" format="color|reference" />
+    </declare-styleable>
+
+</resources>

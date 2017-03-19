@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/hamburger_menu_width"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:id="@+id/menu_items_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <in.otivr.app.view.MenuItemView
+            android:id="@+id/create_ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/horizontal_margin"
+            app:src="@drawable/ic_edit_24dp"
+            app:text="@string/menu_create_ad"
+            app:colorDisabled="@color/light_gray"
+            app:colorEnabled="@color/darker_gray"
+            app:colorSelected="@color/dark_blue"
+            android:background="@drawable/selector_list_item_background"
+            android:enabled="true"
+            />
+
+        <in.otivr.app.view.MenuItemView
+            android:id="@+id/invite_colleague"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/horizontal_margin"
+            app:src="@drawable/ic_handshake_24dp"
+            app:text="@string/menu_invite_colleague"
+            app:colorDisabled="@color/light_gray"
+            app:colorEnabled="@color/darker_gray"
+            app:colorSelected="@color/dark_blue"
+            android:enabled="true"
+            />
+
+        <in.otivr.app.view.MenuItemView
+            android:id="@+id/market"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/horizontal_margin"
+            app:src="@drawable/ic_statistics_24dp"
+            app:text="@string/menu_market"
+            app:colorDisabled="@color/light_gray"
+            app:colorEnabled="@color/darker_gray"
+            app:colorSelected="@color/dark_blue"
+            android:enabled="true"
+            />
+
+        <in.otivr.app.view.MenuItemView
+            android:id="@+id/network"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/horizontal_margin"
+            app:src="@drawable/ic_network_24dp"
+            app:text="@string/menu_network"
+            app:colorDisabled="@color/light_gray"
+            app:colorEnabled="@color/darker_gray"
+            app:colorSelected="@color/dark_blue"
+            android:enabled="false"
+            />
+
+        <in.otivr.app.view.MenuItemView
+            android:id="@+id/tender_management"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/horizontal_margin"
+            app:src="@drawable/ic_justice_24dp"
+            app:text="@string/menu_tender_management"
+            app:colorDisabled="@color/light_gray"
+            app:colorEnabled="@color/darker_gray"
+            app:colorSelected="@color/dark_blue"
+            android:enabled="true"
+            />
+
+        <View style="@style/Divider" />
+
+        <in.otivr.app.view.MenuItemView
+            android:id="@+id/dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/horizontal_margin"
+            app:src="@drawable/ic_dashboard_24dp"
+            app:text="@string/menu_dashboard"
+            app:colorDisabled="@color/light_gray"
+            app:colorEnabled="@color/darker_gray"
+            app:colorSelected="@color/dark_blue"
+            android:enabled="false"
+            />
+
+        <in.otivr.app.view.MenuItemView
+            android:id="@+id/inbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/horizontal_margin"
+            app:src="@drawable/ic_message_24dp"
+            app:text="@string/menu_inbox"
+            app:colorDisabled="@color/light_gray"
+            app:colorEnabled="@color/darker_gray"
+            app:colorSelected="@color/dark_blue"
+            android:enabled="true"
+            />
+
+        <in.otivr.app.view.MenuItemView
+            android:id="@+id/feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/horizontal_margin"
+            app:src="@drawable/ic_comment_24dp"
+            app:text="@string/menu_feedback"
+            app:colorDisabled="@color/light_gray"
+            app:colorEnabled="@color/darker_gray"
+            app:colorSelected="@color/dark_blue"
+            android:enabled="true"
+            />
+
+        <in.otivr.app.view.MenuItemView
+            android:id="@+id/support"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/horizontal_margin"
+            app:src="@drawable/ic_support_24dp"
+            app:text="@string/menu_support"
+            app:colorDisabled="@color/light_gray"
+            app:colorEnabled="@color/darker_gray"
+            app:colorSelected="@color/dark_blue"
+            android:enabled="false"
+            />
+
+        <in.otivr.app.view.MenuItemView
+            android:id="@+id/settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/horizontal_margin"
+            app:src="@drawable/ic_settings_white_24dp"
+            app:text="@string/menu_settings"
+            app:colorDisabled="@color/light_gray"
+            app:colorEnabled="@color/darker_gray"
+            app:colorSelected="@color/dark_blue"
+            android:enabled="true"
+            />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

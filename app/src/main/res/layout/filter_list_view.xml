@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_button"
+    android:minWidth="@dimen/actionbar_button_size"
+    android:layout_width="@dimen/actionbar_button_size"
+    android:layout_height="@dimen/actionbar_button_size"
+    android:layout_gravity="center_vertical|right"
+    android:background="@drawable/selector_list_item_background"
+    android:scaleType="centerInside"
+    android:src="@drawable/ic_search"
+    android:tint="@color/white"
+    />

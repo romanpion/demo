@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="custom_action_bar_item_margin">10dp</dimen>
+    <dimen name="hamburger_menu_width">320dp</dimen>
+    <dimen name="market_header_height">80dp</dimen>
+
+    <!-- Base margins -->
+    <dimen name="big_margin">24dp</dimen>
+    <dimen name="vertical_margin">16dp</dimen>
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="smaller_margin">4dp</dimen>
+    <dimen name="smallest_margin">2dp</dimen>
+
+    <!-- Text size -->
+    <dimen name="text_h1">18sp</dimen>
+    <dimen name="text_h2">16sp</dimen>
+    <dimen name="text_title_size">14sp</dimen>
+    <dimen name="text_header_size">12sp</dimen>
+
+    <!-- Market header round buttons -->
+    <dimen name="market_header_button_height">30dp</dimen>
+    <dimen name="button_radius_size">12dp</dimen>
+    <dimen name="button_stroke_width">2dp</dimen>
+    <dimen name="button_small_radius_size">4dp</dimen>
+
+    <dimen name="smaller_button_size">36dp</dimen>
+    <dimen name="default_button_size">48dp</dimen>
+    <dimen name="actionbar_button_size">56dp</dimen>
+
+    <!-- Market item -->
+    <dimen name="item_image_size">24dp</dimen>
+
+    <!-- Tender Management -->
+    <dimen name="company_image_size">60dp</dimen>
+    <dimen name="company_button_image_size">16dp</dimen>
+    <dimen name="company_button_size">24dp</dimen>
+    <dimen name="company_stars_width">60dp</dimen>
+    <dimen name="company_stars_height">15dp</dimen>
+
+    <!-- company profile settings -->
+    <dimen name="company_image">160dp</dimen>
+
+    <dimen name="base_10dp">10dp</dimen>
+    <dimen name="base_20dp">20dp</dimen>
+    <dimen name="base_30dp">30dp</dimen>
+    <dimen name="base_40dp">40dp</dimen>
+    <dimen name="base_60dp">60dp</dimen>
+    <dimen name="base_95dp">95dp</dimen>
+    <dimen name="base_110dp">110dp</dimen>
+</resources>

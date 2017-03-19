@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/dark_blue</color>
+    <color name="colorPrimaryDark">@color/dark_blue</color>
+    <color name="colorAccent">@color/orange</color>
+
+    <color name="menu_item_enabled">@color/darker_gray</color>
+
+    <color name="background">#ECF0F1</color>
+    <color name="blue">#4A90E2</color>
+    <color name="dark_blue">#548CD5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#41A85F</color>
+    <color name="orange">#F89645</color>
+    <color name="yellow">#F8E71C</color>
+    <color name="red">#e74c3c</color>
+    <color name="light_gray">#10000000</color>
+    <color name="dark_gray">#C0C2C4</color>
+    <color name="darker_gray">#808280</color>
+    <color name="lighter_gray">#ECF0F1</color>
+    <color name="divider">#FFD0D3D2</color>
+
+
+</resources>

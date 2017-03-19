@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/smaller_margin"
+        android:text="@string/email_notifications"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/smaller_margin"
+        android:layout_marginBottom="@dimen/smaller_margin"
+        android:text="@string/send_me_notifications"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/proposals_on_ads"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_button_size"
+            android:text="@string/option_proposals"
+            />
+
+        <CheckBox
+            android:id="@+id/responses_on_proposals"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_button_size"
+            android:text="@string/option_responses"
+            />
+
+        <CheckBox
+            android:id="@+id/inbox_messages"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_button_size"
+            android:text="@string/option_messages"
+            />
+
+        <CheckBox
+            android:id="@+id/comments_on_publications"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_button_size"
+            android:text="@string/option_comments"
+            />
+
+        <CheckBox
+            android:id="@+id/partner_publications"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_button_size"
+            android:text="@string/option_partner_publications"
+            />
+
+        <CheckBox
+            android:id="@+id/requests_from_colleagues"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_button_size"
+            android:text="@string/option_requests"
+            />
+
+        <CheckBox
+            android:id="@+id/project_resource_or_assignment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_button_size"
+            android:text="@string/option_projects_etc"
+            />
+
+        <Button
+            android:id="@+id/save_notification_settings"
+            style="@style/BigRoundedButton.Blue"
+            android:layout_width="match_parent"
+            android:text="Save"
+            />
+
+    </LinearLayout>
+
+</merge>

@@ -1,0 +1,418 @@
+<resources>
+    <string name="app_name">Otivr</string>
+    <string name="updating">Updating…</string>
+    <string name="signin">Sign in</string>
+    <string name="signup">Sign up</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="close_drawer">Close hamburger menu</string>
+    <string name="open_drawer">Open hamubrger menu</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="company_name">Company name</string>
+    <string name="cin">Company registration number</string>
+    <string name="register">Join now</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="published">Published</string>
+    <string name="complexity">Complexity</string>
+    <string name="budget">Budget</string>
+    <string name="period">Period</string>
+    <string name="ad_type">Ad type</string>
+    <string name="expiry_date">Expiry date</string>
+    <string name="no_of_bids">No of bids</string>
+    <string name="average_bid">Average bid</string>
+    <string name="submited_by">Submited by</string>
+    <string name="lowest_bid">Lowest bid</string>
+    <string name="highest_bid">Highest bid</string>
+    <string name="our_bid">Our bid</string>
+    <string name="free_search">Free search</string>
+    <string name="search_by_ad">Search by ad</string>
+    <string name="hire_resource">Hire resource</string>
+
+
+    <!-- sidebar menu items -->
+    <string name="menu_create_ad">Create Ad</string>
+    <string name="menu_market">Market</string>
+    <string name="menu_inbox">Inbox</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_tender_management">Tender Management</string>
+    <string name="menu_support">Support</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_invite_colleague">Invite Colleague</string>
+    <string name="menu_network">Network</string>
+    <string name="menu_dashboard">Dashboard</string>
+
+    <!-- login screen -->
+    <string name="login_title">Log in and get to work</string>
+    <string name="username">Username</string>
+    <string name="login_confirm">Log in</string>
+    <string name="lost_login">Lost login?</string>
+    <string name="stay_logged_in">Stay logged in</string>
+    <string name="connect_with_us">Connect with us</string>
+
+    <!-- sign up screen -->
+    <string name="sign_up_title">Join Otivr and explore your business opportunities today</string>
+    <string name="sign_up_first_name">First name</string>
+    <string name="sign_up_last_name">Last name</string>
+    <string name="sign_up_your_company_email">Your company e-mail</string>
+    <string name="sign_up_cin">CIN</string>
+    <string name="sign_up_region">Region</string>
+    <string name="sign_up_dont_have_cin">Don\'t have a CIN?</string>
+    <string name="sign_up_join_now">Join Now</string>
+    <string name="sign_up_already_have_account">Already have an account?</string>
+
+
+    <!-- forgot password screen -->
+    <string name="forgot_password_header">Forgot Password?</string>
+    <string name="forgot_password_text">We will send you an email with the link that help you to reset password. Please check your email after submit.</string>
+    <string name="forgot_password_email_hint">Please enter e-mail here for reset password</string>
+    <string name="forgot_password_send_button">Send</string>
+
+    <!-- complexity values -->
+    <string name="complexity_low">Low</string>
+    <string name="complexity_medium">Medium</string>
+    <string name="complexity_high">High</string>
+
+    <!-- seniority level values -->
+    <string name="seniority_level_junior">Junior</string>
+    <string name="seniority_level_mid">Mid-Senior</string>
+    <string name="seniority_level_senior">Senior</string>
+
+    <!-- ad type values -->
+    <string name="type_project">Project</string>
+    <string name="type_assignment">Assignment</string>
+    <string name="type_resource">Resource</string>
+
+    <!-- ad status values -->
+    <string name="status_open">Open</string>
+    <string name="status_offered">Offered</string>
+    <string name="status_accepted">Accepted</string>
+    <string name="status_rejected">Rejected</string>
+    <string name="status_closed">Closed</string>
+    <string name="status_unanswered">Unanswered</string>
+
+    <!-- invite colleague screen -->
+    <string name="invite">Invite</string>
+    <string name="type_invitation">Type of invitation</string>
+    <string name="admin_invitation_code">Admin invitation code</string>
+    <string name="employee_invitation_code">Employee invitation code</string>
+    <string name="invite_send">Invite was sending</string>
+    <string name="invite_error">Invite don\'t sending. Something went wrong</string>
+    <string name="invalid_email">Email is not valid</string>
+
+    <!-- tender management -->
+    <string name="tender_management_tab_ads">Our Ads</string>
+    <string name="tender_management_tab_proposals">Sent Proposals</string>
+
+    <!-- inbox -->
+    <string name="inbox_messages">Messages</string>
+    <string name="inbox_requests">Requests</string>
+
+    <!-- create ad -->
+    <string name="create_ad">Create Ad</string>
+    <string name="create_ad_tab_project">Project</string>
+    <string name="create_ad_tab_assignment">Assignment</string>
+    <string name="create_ad_tab_resources">Resources</string>
+    <string name="create_ad_title">Title</string>
+    <string name="create_ad_location">Location</string>
+    <string name="create_ad_category">Category</string>
+    <string name="create_ad_complexity">Complexity</string>
+    <string name="create_ad_seniority_level">Seniority Level</string>
+    <string name="create_ad_start_date">Start Date</string>
+    <string name="create_ad_possible_start_date">Possible Start Date</string>
+    <string name="create_ad_end_date">End Date</string>
+    <string name="create_ad_extent_on_site">Extent: On Site</string>
+    <string name="create_ad_hours_per_week">Hours Per Week</string>
+    <string name="create_ad_maximum_budget">Maximum Budget</string>
+    <string name="create_ad_maximum_price">Maximum Price</string>
+    <string name="create_ad_price">Price</string>
+    <string name="create_ad_skills">Skills</string>
+    <string name="create_ad_project_description_hint">Describe your project here</string>
+    <string name="create_ad_project_assignment_description_hint">Describe your assignment here</string>
+    <string name="create_ad_project_resources_description_hint">Describe your resource here</string>
+    <string name="create_ad_resource">Resource</string>
+    <string name="create_ad_resource_type">Resource Type</string>
+    <string name="create_ad_offered_resource">Offered Resource</string>
+    <string name="create_ad_offered_resource_type">Offered Resource Type</string>
+
+
+    <!-- search market screen -->
+    <string name="button_search">Search</string>
+    <string name="button_clear">Clear</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_ok">OK</string>
+    <string name="button_start_date">Start Date</string>
+    <string name="button_end_date">End Date</string>
+    <string name="button_categories_empty">Search within a specific category</string>
+    <string name="button_categories_selected">Categories (%s)</string>
+    <string name="button_skills_empty">Search with a specific skill set</string>
+    <string name="button_skills_selected">Skills (%s)</string>
+    <string name="button_regions_empty">Region</string>
+    <string name="button_regions_selected">Regions (%s)</string>
+    <string name="filtered_by">Filtered By: %s</string>
+    <string name="categories_selected">Categories(%s)</string>
+    <string name="skills_selected">Skills(%s)</string>
+    <string name="regions_selected">Regions(%s)</string>
+    <string name="start_date_selected">Start Date(%s)</string>
+    <string name="end_date_selected">End Date(%s)</string>
+    <string name="dates_selected">Dates(%1$s : %1$s)</string>
+
+    <!-- create bid -->
+    <string name="create_bid">Create bid</string>
+    <string name="create_bid_name">Name</string>
+    <string name="create_bid_email">Email</string>
+    <string name="create_bid_phone">Phone number</string>
+    <string name="create_bid_estimated_time">Estimated time to completion (hours)</string>
+    <string name="create_bid_start_date">Start date</string>
+    <string name="create_bid_end_date">End date</string>
+    <string name="create_bid_possible_start_date">Possible start date</string>
+    <string name="create_bid_extern">Extern: On site (%)</string>
+    <string name="create_bid_hours_per_week">Hours per week (hours)</string>
+    <string name="create_bid_estimated_total_price">Estimated total price</string>
+    <string name="create_bid_estimated_price">Estimated price (hourly rate, INR)</string>
+    <string name="create_bid_maximum_price">Maximum price (hourly rate, INR)</string>
+    <string name="create_bid_processed_skills">Possessed Skills</string>
+    <string name="create_bid_required_skills">Required Skills</string>
+    <string name="create_bid_seniority_level">Seniority Level</string>
+    <string name="create_bid_location">Select Location</string>
+    <string name="create_bid_offered_resource_types">Offered Resource Types</string>
+    <string name="create_bid_offered_resources">Offered Resources</string>
+    <string name="create_bid_upload_cv">Upload CV</string>
+    <string name="create_bid_description_proposal">Description of proposal</string>
+    <string name="create_bid_with_guarantee">Does you bit come with a Guarantee?</string>
+    <string name="create_bid_description_guarantee">Description of the guarantee</string>
+    <string name="create_bid_max_skills">You can choose max %s skills</string>
+    <string name="create_bid_max_offered_resources">You can offer max %s resources</string>
+    <string name="create_bid_max_offered_resource">You can offer max %s resource</string>
+    <string name="create_bid_max_offered_resource_types">You can offer max %s resource types</string>
+    <string name="create_bid_view_cv">View CV</string>
+    <string name="create_bid_linkedin">Linked In</string>
+    <string name="create_bid_place_bid">Place a bid</string>
+    <string name="create_bid_created">Bid has been created</string>
+
+    <!-- change bid -->
+    <string name="change_bid_details">Bid details</string>
+    <string name="change_bid_changed">Bid has been changed</string>
+
+    <!-- validate strings -->
+    <string name="validate_data">Please fill data</string>
+    <string name="validate_invalid">Invalid data</string>
+    <string name="validate_empty">Should not be empty</string>
+    <string name="validate_empty_name">Please fill name</string>
+    <string name="validate_empty_email">Please fill email</string>
+    <string name="validate_empty_phone">Please fill phone</string>
+    <string name="validate_invalid_email">Email is not valid</string>
+    <string name="validate_invalid_phone">Phone is not valid</string>
+
+    <!-- other strings -->
+    <string name="rupees">Rs. %s</string>
+
+    <!-- errors -->
+    <string name="error_invalid_date_range">"Invalid date range"</string>
+
+
+    <!-- date time strings -->
+    <string name="date_util_term_less">less than</string>
+    <string name="date_util_term_a">a</string>
+    <string name="date_util_term_an">an</string>
+
+    <string name="date_util_unit_second">second</string>
+    <string name="date_util_unit_seconds">seconds</string>
+    <string name="date_util_unit_minute">minute</string>
+    <string name="date_util_unit_minutes">minutes</string>
+    <string name="date_util_unit_hour">hour</string>
+    <string name="date_util_unit_hours">hours</string>
+    <string name="date_util_unit_day">day</string>
+    <string name="date_util_unit_days">days</string>
+    <string name="date_util_unit_month">month</string>
+    <string name="date_util_unit_months">months</string>
+    <string name="date_util_unit_year">year</string>
+    <string name="date_util_unit_years">years</string>
+
+    <string name="date_util_prefix_lt">less than a</string>
+    <string name="date_util_prefix_about">about</string>
+    <string name="date_util_prefix_over">over</string>
+    <string name="date_util_prefix_almost">almost</string>
+
+    <string name="date_util_suffix">ago</string>
+
+    <!-- sent proposals detail -->
+    <string name="office_location">Office location</string>
+    <string name="job_title">Job title</string>
+    <string name="department">Department</string>
+    <string name="phone_number">Phone number</string>
+    <string name="sp_email">Email</string>
+    <string name="send_a_message">Send a message</string>
+    <string name="share_this_ad">Share this ad</string>
+    <string name="change_a_bid">Change a bid</string>
+
+    <string name="description_of_qualifications">Description of qualifications</string>
+    <string name="description_of_the_guarantee">Description of the guarantee</string>
+    <string name="description_of_assignment">Description of assignment</string>
+    <string name="description_of_project">Description of Project</string>
+    <string name="description_of_resource">Description of Resource</string>
+    <string name="decline">Decline</string>
+    <string name="contact_details">Contact details</string>
+    <string name="location">Location</string>
+    <string name="id_number">ID number</string>
+    <string name="follow_company">Follow company</string>
+    <string name="about_the_company">About the company</string>
+
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="extent">Extent: On site</string>
+    <string name="price">Price</string>
+    <string name="hours_per_week">Hours per week</string>
+    <string name="seniority_level">Seniority level</string>
+    <string name="possessed_skills">Possessed skills</string>
+    <string name="offered_resources">Offered resources</string>
+
+    <string name="download_CV">Download CV</string>
+    <string name="linked_in">Linked in</string>
+
+    <string name="possible_start_date">Possible start date</string>
+    <string name="time_to_completion">Time to Completion</string>
+    <string name="total_price">Total Price</string>
+    <string name="accept">Accept</string>
+    <string name="signup_url" translatable="false">http://otivrwebdev.azurewebsites.net/#/registration</string>
+    <string name="base_url" translatable="false">http://otivrwebdev.azurewebsites.net</string>
+
+    <!-- tm our ads ad detail -->
+    <string name="category">Category</string>
+    <string name="complexity_of_project">Complexity of Project</string>
+    <string name="posted">Posted</string>
+    
+    <!-- user profile settings screen -->
+    <string name="user_information">User information</string>
+    <string name="email_notifications">E-mail notifications</string>
+    <string name="user_profile_first_name">First Name</string>
+    <string name="user_profile_middle_initial">Middle Initial</string>
+    <string name="user_profile_last_name">Last Name</string>
+    <string name="user_profile_email">E-mail</string>
+    <string name="user_profile_phone_number">Phone Number</string>
+    <string name="user_profile_employee_number">Employee Number</string>
+    <string name="user_profile_job_title">Job Title</string>
+    <string name="user_profile_department">Department</string>
+    <string name="user_profile_office_location">Office Location</string>
+    <string name="user_profile_cv">CV</string>
+    <string name="user_profile_linkedin_profile">LinkedIn Profile</string>
+    <string name="send_me_notifications">Send me email notifications when:</string>
+    <string name="option_proposals">I receive new proposals on my ads</string>
+    <string name="option_responses">I receive responses on my proposals</string>
+    <string name="option_messages">I receive new messages in my inbox</string>
+    <string name="option_comments">I receive comments on my news publications</string>
+    <string name="option_partner_publications">Partners publish new ads, events or news</string>
+    <string name="option_requests">I receive new requests from colleagues</string>
+    <string name="option_projects_etc">New projects, assignments or resources have been posted</string>
+    <string name="user_profile_password">Old password</string>
+    <string name="user_profile_new_password">New password</string>
+    <string name="user_profile_confirm_new_password">Confirm new password</string>
+    <string name="user_profile_change_password">Change password</string>
+    <string name="user_profile_error_same_password">The new password cannot be same as the old password</string>
+    <string name="user_profile_error_password_dont_match">The password does not match</string>
+
+
+    <string name="bid_project">Bid project</string>
+    <string name="offer_resource">Offer resource</string>
+    <string name="company_verified">Company verified</string>
+
+
+    <!-- company profile -->
+    <string name="company_info">Company info</string>
+    <string name="news">News</string>
+    <string name="event">Events</string>
+
+    <!-- feedback -->
+    <string name="feedback_type">Feedback type</string>
+    <string name="role">Role</string>
+    <string name="ad_published">Ad published</string>
+    <string name="your_rating">Your rating</string>
+    <string name="leave_feedback">Leave feedback</string>
+    <string name="specify_the_reason_why_you_are_closing_the_Ad">Specify the reason why you are closing \nthe Ad?</string>
+    <string name="reason">Reason</string>
+    <string name="company">Company</string>
+    <string name="kindly_rate_the_supplier_in_the_following_categories">Kindly rate the_supplier in the following categories</string>
+    <string name="did_the_supplier_have_the_following_skills">Did the supplier have the following skills?</string>
+    <string name="would_you_recommend_the_supplier">Would you recommend the supplier?</string>
+    <string name="leave_a_comment_about_your_overall_experience_of_the_suppliers_work">Leave a comment about your overall experience of the supplier\'s work</string>
+    <string name="leave_a_comment_to_help_us_make_Otiver_better">Leave a comment to help us make Otiver better</string>
+    <string name="quality_of_work">Quality of work</string>
+    <string name="budget_discipline">Budget discipline</string>
+    <string name="delivery_on_time">Delivery on time</string>
+    <string name="completion_of_work">Completion of work</string>
+    <string name="development">Development</string>
+    <string name="sales">Sales</string>
+    <string name="programming">Programming</string>
+    <string name="marketing">Marketing</string>
+    <string name="networking">Networking</string>
+    <string name="description_of_proposal">Description of proposal</string>
+    <string name="found_a_company">Found a company</string>
+    <string name="how_well_did_the_below_information_in_the_supplier">How well did the below information in the supplier\'s proposal match their offer in reality?</string>
+    <string name="unanswered_requests">Unanswered requests</string>
+    <string name="past_reviews">Past reviews</string>
+    <string name="you_have_no_feedback_requests">You have no feedback requests awaiting your answer</string>
+    <string name="you_have_no_past_reviews">You have no past reviews yet</string>
+    <string name="are_you_proceeded_with_proposal">Are you proceeded with one of the proposals ?</string>
+    <string name="you_cant_archive_this_ad">You can\'t archive this Ad</string>
+
+    <string name="registration">Registration</string>
+    <string name="activate_account">Activate account</string>
+    <string name="you_will_be_able_to_log_in_after_activate">You will be able to loging after activate account. Please login right after activation.</string>
+    <string name="activate">Activate</string>
+    <string name="please_enter_password_again">Please enter password again</string>
+    <string name="activation_successful">Activation successful</string>
+
+
+    <!-- company profile settings -->
+    <string name="company_details">Company details</string>
+    <string name="cin_crn">CIN/CRN</string>
+    <string name="company_registration_year">Company registration year</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="industry">Industry</string>
+    <string name="numb_of_employees">No of employees</string>
+    <string name="website">Website</string>
+    <string name="financial_data">Financial data</string>
+    <string name="turnover">Turnover</string>
+    <string name="profit_margin">Profit Margin, \%</string>
+    <string name="equity_ratio">Equity ratio, \%</string>
+    <string name="company_description">Company description</string>
+    <string name="please_add_pictures">Please add 5 pictures which will be displayed on your company profile page</string>
+    <string name="click_here_to_upload_your_image">Click here to upload your image</string>
+    <string name="add_cover_picture_for_your_company_profile">Add cover picture for your company profile</string>
+    <string name="add_video_to_be_displayed_on_your_company_profile_page">Add video to be displayed on your company profile page</string>
+    <string name="save_settings">Save settings</string>
+
+    <!-- user control -->
+    <string name="employee_number">Employee number</string>
+    <string name="company_email">Company email</string>
+    <string name="close">Close</string>
+    <string name="edit">Edit</string>
+    <string name="admin">Admin</string>
+    <string name="superadmin">Superadmin</string>
+    <string name="user">User</string>
+
+    <string-array name="categories">
+        <item>All ads</item>
+        <item>Projects</item>
+        <item>Assignments</item>
+        <item>Resources</item>
+    </string-array>
+
+    <string-array name="requests_headers">
+        <item>All</item>
+        <item>Edit Proposals</item>
+        <item>New Users</item>
+        <item>Admin Requests</item>
+    </string-array>
+
+    <string-array name="our_ad_proposals">
+        <item>All proposals</item>
+        <item>Ads details</item>
+    </string-array>
+</resources>

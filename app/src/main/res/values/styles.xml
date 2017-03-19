@@ -1,0 +1,109 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--@color/colorAccent-->
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:background">@color/divider</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="TextToolbarTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_toLeftOf">@+id/base_activity_toolbar_custom_view</item>
+        <item name="android:textSize">@dimen/abc_text_size_title_material_toolbar</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="BigRoundedButton">
+        <item name="android:padding">@dimen/button_radius_size</item>
+        <item name="android:layout_height">@dimen/default_button_size</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="BigRoundedButton.Blue" parent="BigRoundedButton">
+        <item name="android:background">@drawable/selector_big_blue_rounded_button</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="BigRoundedButton.White" parent="BigRoundedButton">
+        <item name="android:background">@drawable/selector_rounded_button_white_bordered</item>
+        <item name="android:textColorHint">@color/dark_gray</item>
+        <item name="android:textColor">@color/darker_gray</item>
+    </style>
+
+    <style name="BigRoundedButton.Login" parent="BigRoundedButton">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="BigRoundedButton.Login.White" parent="BigRoundedButton.Login">
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:background">@drawable/selector_rounded_button_white_bordered</item>
+        <item name="android:textColorHint">@color/dark_gray</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">14sp</item>
+    </style>
+
+    <style name="BigRoundedButton.Login.Blue" parent="BigRoundedButton.Login">
+        <item name="android:background">@drawable/selector_button_login_blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/dark_gray</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">14sp</item>
+    </style>
+
+    <style name="RoundedEditText">
+        <item name="android:background">@drawable/shape_rounded_button_white_bordered</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColorHint">@color/dark_gray</item>
+        <item name="android:textColor">@color/darker_gray</item>
+        <item name="android:padding">@dimen/button_radius_size</item>
+    </style>
+
+    <style name="RoundedEditText.Login" parent="RoundedEditText">
+        <item name="android:background">@drawable/shape_rounded_button_white_bordered</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorHint">@color/dark_gray</item>
+        <item name="android:textColor">@color/darker_gray</item>
+        <item name="android:padding">14sp</item>
+    </style>
+
+    <style name="ShareButton">
+        <item name="android:layout_width">@dimen/smaller_button_size</item>
+        <item name="android:layout_height">@dimen/smaller_button_size</item>
+        <item name="android:padding">@dimen/smaller_margin</item>
+        <!--<item name="android:tint">@color/selector_share_button_color</item>-->
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:background">@drawable/selector_list_item_background</item>
+    </style>
+</resources>
